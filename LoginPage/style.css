@@ -1,0 +1,158 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none; /* 移除底線 */
+}
+
+.loginpage {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    background-color: lightblue;
+}
+
+.wrap {
+    background-color: white;
+    padding: 6%;
+    border-radius: 4%;
+    color: rgb(2, 111, 111);
+}
+
+form {
+    display: block;
+    width: 450px;
+    height: auto;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 5%;
+}
+
+.subcontainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+}
+
+.subcontainer input {
+    font-size: 16px;
+    line-height: 1.2;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(152, 193, 193);
+    padding: 3%;
+    cursor: pointer;
+}
+
+.subcontainer input:focus {
+    border-bottom: 2px solid darkcyan;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.focusInput {
+    padding-right: 5%;
+    font-size: 18px;
+    color: darkcyan;
+}
+
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+}
+
+.subtitle {
+    font-size: 18px;
+    padding: 5% 0;
+}
+
+.forget {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.loginbut {
+    background-color: rgb(124, 193, 193);
+    width: 100%;
+    padding: 2%;
+    border-radius: 5%;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.loginbut:hover {
+    background-color: darkcyan;
+}
+
+.toSignup {
+    display: flex;
+    justify-content: center;
+}
+
+.signup{
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.socialmedia{
+    display: flex;
+    justify-content: center;
+}
+
+.socialmedia a {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+
+
+.social-icon {
+    font-size: 32px; /* Example size */
+    border-radius: 50%;
+    padding: 0 3%;
+    cursor: pointer;
+}
+
+.social-icon i {
+    color: white;
+}
+
+.facebook {
+    background-color: #1877F2;
+}
+
+.twitter {
+    background-color: #1DA1F2;
+}
+
+.google-plus {
+    background-color: #DB4437;
+}
